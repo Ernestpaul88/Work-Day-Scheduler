@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -33,29 +32,12 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <ul id="list-timeBlocks" class="list-group mt-3 mb-3">
-        <li class="time-block">
-          <div class="row">
-            <span class="hour col-1">9:00 AM</span>
-            <textarea class="description col-10 past"></textarea>
-            <button class="btn saveBtn col-1">
-              <i class="bx bx-archive-out"></i>
-            </button>
-          </div>
-        </li>
-        <li class="time-block">
-          <div class="row">
-            <span class="hour col-1">10:00 AM</span>
-            <textarea class="description col-10 past"></textarea>
-            <button class="btn saveBtn col-1">
-              <i class="bx bx-archive-out"></i>
-            </button>
-          </div>
-        </li>
-      </ul>
+      <ul id="list-timeBlocks" class="list-group mt-3 mb-3"></ul>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/vendor/moment/moment-with-locales.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
 <body>
